@@ -1,3 +1,3 @@
 export default function FAQ() {
-  return <div>FAQ</div>;
+  return <section id ="faq">FAQ</section>;
 }
