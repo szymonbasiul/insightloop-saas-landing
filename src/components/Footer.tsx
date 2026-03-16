@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 
 const footerLinks = {
@@ -17,19 +18,24 @@ const footerLinks = {
     { label: "Privacy", href: "#" },
   ],
 };
-
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};
 export default function Footer() {
   return (
     <footer className="border-t border-white/10 bg-white/[0.02] py-16">
       <div className="mx-auto max-w-6xl px-6">
         <div className="grid gap-12 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
-            <Link
-              href="/"
-              className="text-2xl font-semibold tracking-tight text-white"
+            <button
+              onClick={scrollToTop}
+              className="text-2xl cursor-pointer font-semibold tracking-tight text-white"
             >
               InsightLoop
-            </Link>
+            </button>
 
             <p className="mt-4 max-w-sm text-base leading-7 text-slate-400">
               Modern analytics for product teams that want to track growth,

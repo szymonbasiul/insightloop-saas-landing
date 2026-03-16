@@ -43,7 +43,7 @@ export default function Benefits() {
           {benefits.map((benefit) => (
             <div
               key={benefit.title}
-              className="rounded-3xl border border-white/10 bg-white/[0.03] p-8 shadow-lg backdrop-blur transition hover:-translate-y-1 hover:border-indigo-400/30 hover:bg-white/[0.05]"
+              className="rounded-3xl border border-white/10 bg-white/[0.03] p-8 shadow-lg shadow-black/10 backdrop-blur transition hover:-translate-y-1 hover:border-indigo-400/30 hover:bg-white/[0.05]"
             >
               <div className="inline-flex rounded-full border border-indigo-400/20 bg-indigo-500/10 px-3 py-1 text-sm font-medium text-indigo-200">
                 {benefit.number}

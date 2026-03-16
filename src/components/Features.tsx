@@ -54,7 +54,7 @@ export default function Features() {
           {features.map((feature, index) => (
             <div
               key={feature.title}
-              className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 shadow-lg backdrop-blur transition hover:-translate-y-1 hover:border-indigo-400/30 hover:bg-white/[0.05]"
+              className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 shadow-lg shadow-black/10 backdrop-blur transition hover:-translate-y-1 hover:border-indigo-400/30 hover:bg-white/[0.05]"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500/20 to-violet-500/20 text-sm font-semibold text-indigo-200">
                 0{index + 1}
