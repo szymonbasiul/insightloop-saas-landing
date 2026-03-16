@@ -103,7 +103,7 @@ export default function Pricing() {
 							</ul>
 
 							<button
-								className={`mt-8 w-full rounded-xl px-5 py-3 text-sm font-medium transition ${
+								className={`mt-8 w-full cursor-pointer rounded-xl px-5 py-3 text-sm font-medium transition ${
 									plan.highlighted
 										? 'bg-indigo-500 text-white hover:bg-indigo-400'
 										: 'border border-white/10 bg-white/5 text-white hover:bg-white/10'

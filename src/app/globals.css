@@ -15,12 +15,25 @@ html {
 }
 
 body {
-  background: radial-gradient(circle at top, rgba(99, 102, 241, 0.18), transparent 30%),
+  background:
+    radial-gradient(circle at top, rgba(99, 102, 241, 0.18), transparent 30%),
     linear-gradient(to bottom, #020617, #0f172a 40%, #111827 100%);
   color: var(--foreground);
   min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
   text-decoration: none;
+}
+
+::selection {
+  background: rgba(99, 102, 241, 0.35);
+  color: #ffffff;
+}
+
+section {
+  scroll-margin-top: 96px;
 }

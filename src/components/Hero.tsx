@@ -5,11 +5,11 @@ export default function Hero() {
     <section className="relative overflow-hidden">
       <div className="mx-auto grid min-h-[calc(100vh-80px)] max-w-6xl items-center gap-16 px-6 py-20 md:grid-cols-2 md:py-24">
         <div>
-          <div className="inline-flex items-center rounded-full border border-indigo-400/20 bg-indigo-500/10 px-4 py-2 text-sm font-medium text-indigo-200">
+          <div className="inline-flex items-center rounded-full border border-indigo-400/20 bg-indigo-500/10 px-4 py-2 text-sm font-medium text-indigo-200 shadow-lg shadow-indigo-500/10">
             AI-powered product analytics
           </div>
 
-          <h1 className="mt-6 max-w-xl text-4xl font-semibold leading-tight text-white md:text-6xl">
+          <h1 className="mt-6 max-w-xl text-4xl font-semibold leading-[1.05] text-white md:text-6xl">
             Understand your product growth with{" "}
             <span className="bg-gradient-to-r from-indigo-400 to-violet-400 bg-clip-text text-transparent">
               AI analytics
