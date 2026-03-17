@@ -70,5 +70,7 @@ src/
 
 This project is deployed on Vercel.
 
+Live preview: https://insightloop-saas-landing.vercel.app/
+
 ## Author 
 Created by Szymon Basiul / Pixel Breeze
